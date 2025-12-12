@@ -1,2 +1,3 @@
-# reactProjects
-6 React Projects
+# React Projects
+
+### 6 React Projects

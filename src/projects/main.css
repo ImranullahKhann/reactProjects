@@ -32,3 +32,17 @@ h5 {
 h6 {
   font-size: 2rem;
 }
+
+#page-heading {
+  text-align: center;
+}
+
+#separator {
+  margin-bottom: 2rem;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  gap: 10rem;
+}

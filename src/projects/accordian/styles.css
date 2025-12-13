@@ -1,36 +1,45 @@
 .accordian {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .singleSelec {
-    cursor: pointer;
-    position: relative;
+  cursor: pointer;
+  position: relative;
 }
 
 .accordian > div {
-    background-color: aqua;
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    padding: 2rem;
-    border-radius: 2rem;
+  background-color: rgb(229, 136, 255);
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
+  border-radius: 2rem;
 }
 
 .question {
-    font-weight: bold;
-    display: inline-block;
-    padding-right: 2rem;
+  font-weight: bold;
+  display: inline-block;
+  padding-right: 2rem;
+  margin-bottom: 1rem;
 }
 
 .toggle {
-    position: absolute;
-    right: 0;
+  position: absolute;
+  right: 0;
 }
 
 hr {
-    background-color: black;
+  background-color: black;
+}
+
+.accordian button {
+  background-color: rgb(229, 136, 255);
+  border-radius: 1rem;
+  width: 20rem;
+  height: 4rem;
+  margin: 2rem 0rem;
 }

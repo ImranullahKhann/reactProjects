@@ -1,0 +1,36 @@
+.accordian {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.singleSelec {
+    cursor: pointer;
+    position: relative;
+}
+
+.accordian > div {
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+    border-radius: 2rem;
+}
+
+.question {
+    font-weight: bold;
+    display: inline-block;
+    padding-right: 2rem;
+}
+
+.toggle {
+    position: absolute;
+    right: 0;
+}
+
+hr {
+    background-color: black;
+}

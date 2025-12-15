@@ -12,11 +12,11 @@ export default function Layout() {
       <h1 id="page-heading">6 React Projects</h1>
       <hr id="separator" />
       <div className="projects">
-        {/* <Accordian />
+        <Accordian />
         <RandomColor />
         <StarRating />
         <ImageSlider url="https://picsum.photos/v2/list" parameters="?page=1&limit=10" />
-        <LoadNextPage numOfItems={20} /> */}
+        <LoadNextPage numOfItems={20} />
         <RecursiveMenu />
       </div>
     </>

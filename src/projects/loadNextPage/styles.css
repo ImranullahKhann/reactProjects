@@ -1,0 +1,9 @@
+.load-next {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.loading {
+    text-align: center;
+}

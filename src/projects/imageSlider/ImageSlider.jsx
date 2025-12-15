@@ -15,8 +15,13 @@ export default function ImageSlider ({url, parameters}) {
         const urlCall = url + parameters
 
         setIsLoading(true)
-        let images = await fetch(urlCall)
-        
+        let images;
+        try {
+            images = await fetch(urlCall)
+        }
+        catch (e) {
+            console.log(e)
+        }
         
         if (!images.ok)
             alert("Error Retrieving Images for Image Slider. Response Status: " + images.status)

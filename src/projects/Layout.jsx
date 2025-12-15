@@ -3,6 +3,7 @@ import Accordian from "./accordion/Accordion.jsx";
 import RandomColor from "./randomColor/RandomColor.jsx";
 import StarRating from "./starRating/StarRating.jsx";
 import ImageSlider from "./imageSlider/ImageSlider.jsx"
+import LoadNextPage from "./loadNextPage/LoadNextPage.jsx"
 
 export default function Layout() {
   return (
@@ -12,8 +13,9 @@ export default function Layout() {
       <div className="projects">
         {/* <Accordian />
         <RandomColor />
-        <StarRating /> */}
-        <ImageSlider url="https://picsum.photos/v2/list" parameters="?page=1&limit=10" />
+        <StarRating />
+        <ImageSlider url="https://picsum.photos/v2/list" parameters="?page=1&limit=10" /> */}
+        <LoadNextPage />
       </div>
     </>
   );

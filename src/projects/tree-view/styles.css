@@ -1,0 +1,19 @@
+.recursive-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+li {
+    margin-left: 3rem;
+}
+
+.menu-item {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+}
+
+.toggle-expand {
+    cursor: pointer;
+}

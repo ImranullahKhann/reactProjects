@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react"
 import "./styles.css"
 
-export default function LoadNextPage({numOfItems}) {
+export default function LoadNextPage({ numOfItems = 20 }) {
     const [products, setProducts] = useState([]);
     const [pageNo, setPageNo] = useState(1)
     const [pagesExplored, setPagesExplored] = useState(0)

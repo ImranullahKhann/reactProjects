@@ -4,6 +4,7 @@ import RandomColor from "./randomColor/RandomColor.jsx";
 import StarRating from "./starRating/StarRating.jsx";
 import ImageSlider from "./imageSlider/ImageSlider.jsx"
 import LoadNextPage from "./loadNextPage/LoadNextPage.jsx"
+import RecursiveMenu from "./tree-view/RecursiveMenu.jsx";
 
 export default function Layout() {
   return (
@@ -14,8 +15,9 @@ export default function Layout() {
         {/* <Accordian />
         <RandomColor />
         <StarRating />
-        <ImageSlider url="https://picsum.photos/v2/list" parameters="?page=1&limit=10" /> */}
-        <LoadNextPage numOfItems={10} />
+        <ImageSlider url="https://picsum.photos/v2/list" parameters="?page=1&limit=10" />
+        <LoadNextPage numOfItems={20} /> */}
+        <RecursiveMenu />
       </div>
     </>
   );

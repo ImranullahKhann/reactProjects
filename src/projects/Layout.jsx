@@ -15,7 +15,7 @@ export default function Layout() {
         <RandomColor />
         <StarRating />
         <ImageSlider url="https://picsum.photos/v2/list" parameters="?page=1&limit=10" /> */}
-        <LoadNextPage />
+        <LoadNextPage numOfItems={10} />
       </div>
     </>
   );

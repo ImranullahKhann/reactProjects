@@ -7,3 +7,34 @@
 .loading {
     text-align: center;
 }
+
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    margin: 2rem 0rem;
+}
+
+.product {
+    width: 35rem;
+    padding: 3rem 2rem;
+    border: 1px solid black;
+}
+
+.product>div {
+    width: 20rem;
+    height: 20rem;
+
+}
+
+.product>div>img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+button.inactive {
+    pointer-events: none;
+    opacity: 0.5;
+}
